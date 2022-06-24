@@ -1,0 +1,1298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(Name=00007ffaebe2485b @4 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1003,0,143.23,25.24" CodeSchemaProperty_IsExternal="True" Label="00007ffaebe2485b">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="(Name=LogicHandle::AddSession @10 @16 OverloadingParameters=[(Type=&quot;LogicSession * {ClientReconn}&quot; Name=pSession),(Type=&quot;const HostHd &amp;&quot; Name=hd),(@43 Name=maxBuffer)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="407.186666666667,1822.91999999999,102.856666666667,25.24" Label="AddSession" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=282 StartCharacterOffset=0 EndLineNumber=282 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetBufferEv::Read @10 @46 OverloadingParameters=[(@39 Name=data),@140] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="26.1383333333333,2264.83999999999,64.9533333333334,25.2399999999998" Label="Read" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/evt2/NetBufferEv.cpp StartLineNumber=71 StartCharacterOffset=0 EndLineNumber=71 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetBufferEv::Read @5 @46 OverloadingParameters=[(@39 Name=data),@140] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1400.13833333333,2043.87999999999,64.9533333333334,25.2399999999998" Label="Read" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/evt2/NetBufferEv.cpp StartLineNumber=71 StartCharacterOffset=0 EndLineNumber=71 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetBufferEv::Write @5 @16 OverloadingParameters=[(@81 Name=data),@140] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1333.98166666667,1933.39999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/evt2/NetBufferEv.cpp StartLineNumber=76 StartCharacterOffset=0 EndLineNumber=76 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetSocketPair::Read @10 @30 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="400.138333333333,1049.56,64.9533333333333,25.24" Label="Read" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=46 StartCharacterOffset=0 EndLineNumber=46 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetSocketPair::Read @5 @30 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1072.13833333333,1049.56,64.9533333333334,25.24" Label="Read" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=46 StartCharacterOffset=0 EndLineNumber=46 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetSocketPair::Write @10 @16 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="329.981666666667,2320.07999999999,67.2666666666667,25.2399999999998" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=28 StartCharacterOffset=0 EndLineNumber=28 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=NetSocketPair::Write @5 @16 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="932.981666666667,2099.11999999999,67.2666666666667,25.2399999999998" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=28 StartCharacterOffset=0 EndLineNumber=28 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@100" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="563.521666666667,1988.63999999999,70.1866666666667,25.24" Label="_Send" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/NetClient.cpp StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@101" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1100.72166666667,1822.91999999999,149.786666666667,25.24" Label="OnHandleLogicMsg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=214 StartCharacterOffset=0 EndLineNumber=214 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@102" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1100.72166666667,1767.67999999999,149.786666666667,25.24" Label="OnHandleLogicMsg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrLogicHandle.cpp StartLineNumber=17 StartCharacterOffset=0 EndLineNumber=17 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@103" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1162.34833333333,1988.63999999999,118.533333333333,25.24" Label="SendMsgHton" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=239 StartCharacterOffset=0 EndLineNumber=239 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@104" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="304.348333333334,2209.59999999999,118.533333333333,25.2399999999998" Label="SendMsgHton" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=239 StartCharacterOffset=0 EndLineNumber=239 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@108" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="316.685,1601.95999999999,73.86,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@109" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="997.685,1436.23999999999,73.8599999999999,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@110" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="498.685,1436.23999999999,73.86,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@111" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1037.685,276.199999999999,73.8599999999999,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@112" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="713.685,276.199999999999,73.86,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@113" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1037.685,497.159999999998,73.8599999999999,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@114" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="713.685,497.159999999998,73.86,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1534 StartCharacterOffset=0 EndLineNumber=1534 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@117" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="322.401666666667,1546.71999999999,62.4266666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=651 StartCharacterOffset=0 EndLineNumber=651 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@118" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1003.40166666667,1380.99999999999,62.4266666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=651 StartCharacterOffset=0 EndLineNumber=651 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@119" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="504.401666666667,1380.99999999999,62.4266666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=651 StartCharacterOffset=0 EndLineNumber=651 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@120" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1043.40166666667,441.919999999998,62.4266666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=660 StartCharacterOffset=0 EndLineNumber=660 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@121" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="719.401666666667,441.919999999998,62.4266666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=660 StartCharacterOffset=0 EndLineNumber=660 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@122" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1375.32666666667,1491.47999999999,114.576666666667,25.24" Label="conn_read_cb" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetEventCb.cpp StartLineNumber=48 StartCharacterOffset=0 EndLineNumber=48 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@123" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1.3266666666666,1215.28,114.576666666667,25.24" Label="conn_read_cb" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetEventCb.cpp StartLineNumber=48 StartCharacterOffset=0 EndLineNumber=48 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@124" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1281.13833333333,1767.67999999999,120.953333333333,25.24" Label="io_send_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=369 StartCharacterOffset=0 EndLineNumber=369 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@125" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="767.138333333334,1767.67999999999,120.953333333333,25.24" Label="io_send_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=369 StartCharacterOffset=0 EndLineNumber=369 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@126" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1204.38333333333,331.439999999999,64.4633333333331,25.24" Label="main" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrgate/XrGate.cpp StartLineNumber=14 StartCharacterOffset=0 EndLineNumber=14 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@127" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="849.383333333333,331.439999999999,64.4633333333334,25.24" Label="main" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrclient/Client.cpp StartLineNumber=13 StartCharacterOffset=0 EndLineNumber=13 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@128" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1088.84,939.079999999996,157.55,25.24" Label="event_persist_closure" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1645 StartCharacterOffset=0 EndLineNumber=1645 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@129" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="274.84,939.079999999996,157.55,25.24" Label="event_persist_closure" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1645 StartCharacterOffset=0 EndLineNumber=1645 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="849.615,441.919999999998,64,25.24" Label="_Run" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrAppBase.cpp StartLineNumber=366 StartCharacterOffset=0 EndLineNumber=366 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@130" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1101.955,773.359999999997,131.32,25.24" Label="event_base_loop" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=2046 StartCharacterOffset=0 EndLineNumber=2046 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@131" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="684.955,773.359999999997,131.32,25.24" Label="event_base_loop" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=2046 StartCharacterOffset=0 EndLineNumber=2046 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@136" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1117.89166666667,1436.23999999999,177.446666666667,25.24" Label="bufferevent_run_readcb_" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent.c StartLineNumber=251 StartCharacterOffset=0 EndLineNumber=251 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@137" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="103.891666666667,1160.04,177.446666666667,25.24" Label="bufferevent_run_readcb_" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent.c StartLineNumber=251 StartCharacterOffset=0 EndLineNumber=251 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@138" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1374,1988.63999999999,117.23,25.24" Label="io_recv_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=329 StartCharacterOffset=0 EndLineNumber=329 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@139" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,2209.59999999999,117.23,25.2399999999998" Label="io_recv_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=329 StartCharacterOffset=0 EndLineNumber=329 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="834.603333333333,386.679999999998,94.0233333333333,25.24" Label="MainLoop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrAppBase.cpp StartLineNumber=147 StartCharacterOffset=0 EndLineNumber=147 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@141" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="819.981666666667,1933.39999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/evt2/NetBufferEv.cpp StartLineNumber=77 StartCharacterOffset=0 EndLineNumber=77 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@142" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1333.98166666667,1878.15999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetConn.cpp StartLineNumber=195 StartCharacterOffset=0 EndLineNumber=195 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@143" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="819.981666666667,1878.15999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetConn.cpp StartLineNumber=195 StartCharacterOffset=0 EndLineNumber=195 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@145" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="302.685,1822.91999999999,73.86,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1540 StartCharacterOffset=0 EndLineNumber=1540 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@146" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="997.685,1657.19999999999,73.8599999999999,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1540 StartCharacterOffset=0 EndLineNumber=1540 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@147" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="667.685,1657.19999999999,73.8600000000001,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/type_traits&quot; StartLineNumber=1540 StartCharacterOffset=0 EndLineNumber=1540 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@148" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="308.401666666667,1767.67999999999,62.4266666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=670 StartCharacterOffset=0 EndLineNumber=670 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@149" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1003.40166666667,1601.95999999999,62.4266666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=670 StartCharacterOffset=0 EndLineNumber=670 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@15" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="852.305,497.159999999998,58.62,25.24" Label="Run" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrAppBase.cpp StartLineNumber=202 StartCharacterOffset=0 EndLineNumber=202 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@150" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="504.401666666667,1601.95999999999,62.4266666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=670 StartCharacterOffset=0 EndLineNumber=670 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@153" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1093.95666666667,1215.28,147.316666666667,25.24" Label="bufferevent_readcb" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent_sock.c StartLineNumber=214 StartCharacterOffset=0 EndLineNumber=214 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@154" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="118.956666666667,994.319999999996,147.316666666667,25.24" Label="bufferevent_readcb" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent_sock.c StartLineNumber=214 StartCharacterOffset=0 EndLineNumber=214 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@155" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="172.543333333334,1270.52,150.143333333333,25.24" Label="bufferevent_writecb" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent_sock.c StartLineNumber=278 StartCharacterOffset=0 EndLineNumber=278 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@156" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="303.48,1325.75999999999,100.27,25.24" Label="timeout_cb" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/EventTimer.cpp StartLineNumber=15 StartCharacterOffset=0 EndLineNumber=15 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@157" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="100.523333333334,1380.99999999999,112.183333333333,25.2399999999998" Label="reconnect_cb" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetEventCb.cpp StartLineNumber=115 StartCharacterOffset=0 EndLineNumber=115 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@158" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1040.82166666667,994.319999999996,95.5866666666666,25.24" Label="_EventPop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=135 StartCharacterOffset=0 EndLineNumber=135 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@159" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="384.821666666667,994.319999999996,95.5866666666667,25.24" Label="_EventPop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=136 StartCharacterOffset=0 EndLineNumber=136 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@160" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1108.57333333333,1270.51999999999,196.083333333333,25.24" Label="bufferevent_trigger_nolock_" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent-internal.h StartLineNumber=418 StartCharacterOffset=0 EndLineNumber=418 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@161" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="94.5733333333335,1104.8,196.083333333333,25.24" Label="bufferevent_trigger_nolock_" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent-internal.h StartLineNumber=418 StartCharacterOffset=0 EndLineNumber=418 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@162" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="89.8516666666669,1325.75999999999,183.526666666667,25.24" Label="bufferevent_run_eventcb_" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/bufferevent.c StartLineNumber=296 StartCharacterOffset=0 EndLineNumber=296 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@163" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="818.54,994.319999999996,128.15,25.24" Label="listener_read_cb" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/listener.c StartLineNumber=436 StartCharacterOffset=0 EndLineNumber=436 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@165" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1333.98166666667,1822.91999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetConnPool.cpp StartLineNumber=203 StartCharacterOffset=0 EndLineNumber=203 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@166" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="793.981666666667,1822.91999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetConnPool.cpp StartLineNumber=203 StartCharacterOffset=0 EndLineNumber=203 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@167" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="949.536666666667,1988.63999999999,182.156666666667,25.24" Label="io_notify_logic_conn_msg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgConn.cpp StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@168" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="593.536666666667,2209.59999999999,182.156666666667,25.2399999999998" Label="io_notify_logic_conn_msg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgConn.cpp StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@17" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1157.73333333333,165.719999999999,157.763333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="__scrt_common_main" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl StartLineNumber=330 StartCharacterOffset=0 EndLineNumber=330 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@170" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1049.395,883.839999999997,236.44,25.24" Label="event_process_active_single_queue" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1704 StartCharacterOffset=0 EndLineNumber=1704 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@171" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="632.395,883.839999999997,236.44,25.24" Label="event_process_active_single_queue" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1704 StartCharacterOffset=0 EndLineNumber=1704 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@172" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="89.7150000000001,2154.35999999999,133.8,25.2399999999998" Label="DispatchConnect" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=209 StartCharacterOffset=0 EndLineNumber=209 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@175" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1152.33333333333,1878.15999999999,138.563333333334,25.24" Label="send_conn_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=249 StartCharacterOffset=0 EndLineNumber=249 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@176" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="266.333333333333,2099.11999999999,138.563333333333,25.2399999999998" Label="send_conn_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=249 StartCharacterOffset=0 EndLineNumber=249 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@177" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="460.065,2099.11999999999,127.1,25.2399999999998" Label="send_conn_msg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=255 StartCharacterOffset=0 EndLineNumber=255 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@179" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="301.051666666667,1712.43999999999,105.126666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call_binder" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=1307 StartCharacterOffset=0 EndLineNumber=1307 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@18" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1145.16666666667,220.959999999999,182.896666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="__scrt_common_main_seh" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl StartLineNumber=281 StartCharacterOffset=0 EndLineNumber=281 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@180" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="982.051666666667,1546.71999999999,105.126666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call_binder" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=1307 StartCharacterOffset=0 EndLineNumber=1307 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@181" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="483.051666666667,1546.71999999999,105.126666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Call_binder" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=1307 StartCharacterOffset=0 EndLineNumber=1307 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@184" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="855.875,1160.04,125.48,25.24" Label="DispatchAccpet" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=196 StartCharacterOffset=0 EndLineNumber=196 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@185" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="147.875,2209.59999999999,125.48,25.2399999999998" Label="DispatchAccpet" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=196 StartCharacterOffset=0 EndLineNumber=196 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@186" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1139.96666666667,1933.39999999999,163.296666666667,25.24" Label="multicast_conn_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=268 StartCharacterOffset=0 EndLineNumber=268 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@187" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="253.966666666667,2154.35999999999,163.296666666667,25.2399999999998" Label="multicast_conn_msg_x" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=268 StartCharacterOffset=0 EndLineNumber=268 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@188" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="447.698333333334,2154.35999999999,151.833333333333,25.2399999999998" Label="multicast_conn_msg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/MsgParser.cpp StartLineNumber=283 StartCharacterOffset=0 EndLineNumber=283 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@189" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="553.735,1933.39999999999,89.76,25.24" Label="SendMsg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrClient.cpp StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@19" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1120.60333333333,607.639999999998,94.0233333333335,25.24" Label="MainLoop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/EventThread.cpp StartLineNumber=102 StartCharacterOffset=0 EndLineNumber=102 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@190" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="821.256666666667,1104.8,122.716666666667,25.24" Label="_ListenCallBack" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/ListenThread.cpp StartLineNumber=45 StartCharacterOffset=0 EndLineNumber=45 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@193" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="819.981666666667,1988.63999999999,67.2666666666667,25.24" Label="Write" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/log/LogMgr.h StartLineNumber=116 StartCharacterOffset=0 EndLineNumber=116 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1182.76333333333,276.199999999999,107.703333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke_main" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl StartLineNumber=78 StartCharacterOffset=0 EndLineNumber=78 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1269.60333333333,552.399999999998,94.0233333333335,25.24" Label="MainLoop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicThread.cpp StartLineNumber=157 StartCharacterOffset=0 EndLineNumber=157 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@22" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1106.735,662.879999999997,121.76,25.24" Label="event_dispatch" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/evt2/NetEventBase.cpp StartLineNumber=23 StartCharacterOffset=0 EndLineNumber=23 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="833.733333333333,165.719999999999,157.763333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="__scrt_common_main" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl StartLineNumber=330 StartCharacterOffset=0 EndLineNumber=330 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="821.166666666667,220.959999999999,182.896666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="__scrt_common_main_seh" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl StartLineNumber=281 StartCharacterOffset=0 EndLineNumber=281 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="703.603333333333,607.639999999998,94.0233333333333,25.24" Label="MainLoop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/EventThread.cpp StartLineNumber=102 StartCharacterOffset=0 EndLineNumber=102 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="827.763333333333,276.199999999999,107.703333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="invoke_main" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_common.inl StartLineNumber=78 StartCharacterOffset=0 EndLineNumber=78 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="834.603333333333,552.399999999998,94.0233333333333,25.24" Label="MainLoop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicThread.cpp StartLineNumber=157 StartCharacterOffset=0 EndLineNumber=157 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@29" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="689.735,662.879999999997,121.76,25.24" Label="event_dispatch" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/evt2/NetEventBase.cpp StartLineNumber=23 StartCharacterOffset=0 EndLineNumber=23 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@3" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1003.94166666667,55.2399999999998,141.346666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="00007ffae9ea54e0">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1012.29666666667,1160.04,58.6366666666668,25.24" Label="Pop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=142 StartCharacterOffset=0 EndLineNumber=142 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="962.016666666667,1049.56,79.1966666666667,25.24" Label="_DoCall" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=147 StartCharacterOffset=0 EndLineNumber=147 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="548.158333333334,1878.15999999999,100.913333333333,25.24" Label="OnConnect" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrclient/ClientReconn.cpp StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@34" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="310.673333333333,1380.99999999999,85.8833333333333,25.24" Label="OnTimer" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/EventTimer.cpp StartLineNumber=40 StartCharacterOffset=0 EndLineNumber=40 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="540.915,1822.91999999999,115.4,25.24" Label="OnConnected" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="506.296666666667,1160.04,58.6366666666667,25.24" Label="Pop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=142 StartCharacterOffset=0 EndLineNumber=142 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="496.016666666667,1049.56,79.1966666666667,25.24" Label="_DoCall" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/NetSocketPair.cpp StartLineNumber=147 StartCharacterOffset=0 EndLineNumber=147 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@41" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1105.94333333333,110.48,129.343333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="mainCRTStartup" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_main.cpp StartLineNumber=16 StartCharacterOffset=0 EndLineNumber=16 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="913.943333333334,110.48,129.343333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="mainCRTStartup" SourceLocation="(Assembly=file:///D:/a/_work/1/s/src/vctools/crt/vcstartup/src/startup/exe_main.cpp StartLineNumber=16 StartCharacterOffset=0 EndLineNumber=16 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@44" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1034.82833333333,220.959999999999,79.5733333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="_Invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/thread&quot; StartLineNumber=55 StartCharacterOffset=0 EndLineNumber=55 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="710.828333333333,220.959999999999,79.5733333333334,25.24" CodeSchemaProperty_IsExternal="True" Label="_Invoke" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/thread&quot; StartLineNumber=55 StartCharacterOffset=0 EndLineNumber=55 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@48" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="310.613333333334,1436.23999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=869 StartCharacterOffset=0 EndLineNumber=869 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@50" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="312.331666666667,1491.47999999999,82.5666666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Do_call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=822 StartCharacterOffset=0 EndLineNumber=822 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1031.61333333333,331.439999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=869 StartCharacterOffset=0 EndLineNumber=869 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@53" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="707.613333333333,331.439999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=869 StartCharacterOffset=0 EndLineNumber=869 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@54" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="991.613333333334,1270.51999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=869 StartCharacterOffset=0 EndLineNumber=869 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@55" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="492.613333333333,1270.51999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=869 StartCharacterOffset=0 EndLineNumber=869 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@58" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1033.33166666667,386.679999999998,82.5666666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Do_call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=822 StartCharacterOffset=0 EndLineNumber=822 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@59" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="709.331666666667,386.679999999998,82.5666666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Do_call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=822 StartCharacterOffset=0 EndLineNumber=822 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@60" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="993.331666666667,1325.75999999999,82.5666666666666,25.24" CodeSchemaProperty_IsExternal="True" Label="_Do_call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=822 StartCharacterOffset=0 EndLineNumber=822 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@61" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="494.331666666667,1325.75999999999,82.5666666666667,25.24" CodeSchemaProperty_IsExternal="True" Label="_Do_call" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=822 StartCharacterOffset=0 EndLineNumber=822 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@62" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="310.613333333334,1657.19999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=1344 StartCharacterOffset=0 EndLineNumber=1344 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@63" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="991.613333333334,1491.47999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=1344 StartCharacterOffset=0 EndLineNumber=1344 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@64" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="492.613333333334,1491.47999999999,86.0033333333333,25.24" CodeSchemaProperty_IsExternal="True" Label="operator" SourceLocation="(Assembly=&quot;file:///C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/include/functional&quot; StartLineNumber=1344 StartCharacterOffset=0 EndLineNumber=1344 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@67" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="959.265,552.399999999998,106.7,25.24" Label="io_thread_fn" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@68" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1096.56166666667,552.399999999998,142.106666666667,25.24" Label="_ListenThreadFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/ListenThread.cpp StartLineNumber=57 StartCharacterOffset=0 EndLineNumber=57 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@69" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="697.265,552.399999999998,106.7,25.24" Label="io_thread_fn" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThreadControl.cpp StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1204.615,441.919999999998,64,25.24" Label="_Run" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrAppBase.cpp StartLineNumber=366 StartCharacterOffset=0 EndLineNumber=366 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@70" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="974.586666666667,1104.8,162.056666666667,25.24" Label="event_msgqueue_pop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=170 StartCharacterOffset=0 EndLineNumber=170 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@71" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="454.586666666667,1104.8,162.056666666667,25.24" Label="event_msgqueue_pop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=170 StartCharacterOffset=0 EndLineNumber=170 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@73" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1089.72666666667,828.599999999997,155.776666666667,25.24" Label="event_process_active" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1804 StartCharacterOffset=0 EndLineNumber=1804 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@74" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="672.726666666667,828.599999999997,155.776666666667,25.24" Label="event_process_active" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1804 StartCharacterOffset=0 EndLineNumber=1804 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@75" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="296.673333333334,1878.15999999999,85.8833333333333,25.24" Label="OnTimer" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicThread.cpp StartLineNumber=292 StartCharacterOffset=0 EndLineNumber=292 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@76" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="296.673333333334,1933.39999999999,85.8833333333333,25.24" Label="OnTimer" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/ReConnEvent.cpp StartLineNumber=163 StartCharacterOffset=0 EndLineNumber=163 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@77" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1090.715,718.119999999997,153.8,25.24" Label="event_base_dispatch" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1839 StartCharacterOffset=0 EndLineNumber=1839 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@78" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="673.715,718.119999999997,153.8,25.24" Label="event_base_dispatch" SourceLocation="(Assembly=file:///D:/蓝鲸/JGDemo/JGDemo/tool/libevent-master/event.c StartLineNumber=1839 StartCharacterOffset=0 EndLineNumber=1839 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1189.60333333333,386.679999999998,94.0233333333335,25.24" Label="MainLoop" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrAppBase.cpp StartLineNumber=147 StartCharacterOffset=0 EndLineNumber=147 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@80" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="106.158333333334,2099.11999999999,100.913333333333,25.2399999999998" Label="OnConnect" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/ReConnEvent.cpp StartLineNumber=127 StartCharacterOffset=0 EndLineNumber=127 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@82" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="523.836666666667,1767.67999999999,149.556666666667,25.24" Label="OnHandleConnMsg" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=165 StartCharacterOffset=0 EndLineNumber=165 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@83" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1005.305,1215.28,58.6199999999999,25.24" Label="Run" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=161 StartCharacterOffset=0 EndLineNumber=161 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@84" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="506.305,1215.28,58.6199999999999,25.24" Label="Run" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=161 StartCharacterOffset=0 EndLineNumber=161 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@86" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="934.775,2043.87999999999,63.6800000000001,25.2399999999998" Label="Push" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=108 StartCharacterOffset=0 EndLineNumber=108 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@87" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="331.775,2264.83999999999,63.68,25.2399999999998" Label="Push" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/MsgQueue.cpp StartLineNumber=108 StartCharacterOffset=0 EndLineNumber=108 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@88" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="959.563333333334,1933.39999999999,150.103333333333,25.24" Label="_OnMsgAcceptFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThread.cpp StartLineNumber=159 StartCharacterOffset=0 EndLineNumber=159 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@89" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1078.05,1712.43999999999,141.13,25.24" Label="_OnMsgInputFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThread.cpp StartLineNumber=207 StartCharacterOffset=0 EndLineNumber=207 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1207.305,497.159999999998,58.6199999999999,25.24" Label="Run" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/server/SvrAppBase.cpp StartLineNumber=202 StartCharacterOffset=0 EndLineNumber=202 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@90" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1249.68833333333,1712.43999999999,151.853333333333,25.24" Label="_OnMsgOutputFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThread.cpp StartLineNumber=225 StartCharacterOffset=0 EndLineNumber=225 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@91" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="629.563333333334,2154.35999999999,150.103333333333,25.2399999999998" Label="_OnMsgAcceptFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThread.cpp StartLineNumber=159 StartCharacterOffset=0 EndLineNumber=159 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@92" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="532.05,1712.43999999999,141.13,25.24" Label="_OnMsgInputFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThread.cpp StartLineNumber=202 StartCharacterOffset=0 EndLineNumber=202 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@93" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="735.688333333334,1712.43999999999,151.853333333333,25.24" Label="_OnMsgOutputFunc" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/base/IoThread.cpp StartLineNumber=225 StartCharacterOffset=0 EndLineNumber=225 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@94" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="294.408333333334,1988.63999999999,90.4133333333333,25.24" Label="SendPing" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=87 StartCharacterOffset=0 EndLineNumber=87 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@95" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1022.28833333333,165.719999999999,104.653333333333,25.24" Label="thread_start">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@96" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="698.288333333333,165.719999999999,104.653333333333,25.24" Label="thread_start">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@98" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="296.693333333334,2043.87999999999,85.8433333333334,25.2399999999998" Label="SendNet" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=60 StartCharacterOffset=0 EndLineNumber=60 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@99" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="555.693333333334,2043.87999999999,85.8433333333332,25.2399999999998" Label="SendNet" SourceLocation="(Assembly=file:///D:/projs/xrserver_simple/src/xrbase/net/LogicHandle.cpp StartLineNumber=54 StartCharacterOffset=0 EndLineNumber=54 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="(Name=00007ffaebe2485b @4 @2)" Target="@3" Category="CallStackDirectCall" Bounds="1074.61499023438,25.2399997711182,0,21.0000019073486" />
+    <Link Source="@100" Target="@99" Category="CallStackDirectCall" Bounds="598.614990234375,2013.88000488281,0,21" />
+    <Link Source="@101" Target="@175" Category="CallStackDirectCall" Bounds="1186.1240234375,1848.16003417969,19.2227783203125,23.0838623046875" />
+    <Link Source="@102" Target="@101" Category="CallStackDirectCall" Bounds="1175.61499023438,1792.92004394531,0,21" />
+    <Link Source="@103" Target="@86" Category="CallStackDirectCall" Bounds="1007.2509765625,2013.68139648438,157.024047851563,34.0157470703125" />
+    <Link Source="@104" Target="@87" Category="CallStackDirectCall" Bounds="363.614990234375,2234.84008789063,0,21" />
+    <Link Source="@108" Target="@62" Category="CallStackDirectCall" Bounds="353.614990234375,1627.19995117188,0,21" />
+    <Link Source="@109" Target="@63" Category="CallStackDirectCall" Bounds="1034.61499023438,1461.47998046875,0,21" />
+    <Link Source="@110" Target="@64" Category="CallStackDirectCall" Bounds="535.614990234375,1461.47998046875,0,21" />
+    <Link Source="@111" Target="@52" Category="CallStackDirectCall" Bounds="1074.61499023438,301.440002441406,0,21" />
+    <Link Source="@112" Target="@53" Category="CallStackDirectCall" Bounds="750.614990234375,301.440002441406,0,21" />
+    <Link Source="@113" Target="@67" Category="CallStackDirectCall" Bounds="1033.49914550781,522.400024414063,26.9515380859375,24.0128784179688" />
+    <Link Source="@113" Target="@68" Category="CallStackDirectCall" Bounds="1095.86157226563,522.400024414063,42.7689208984375,25.40380859375" />
+    <Link Source="@114" Target="@69" Category="CallStackDirectCall" Bounds="750.614990234375,522.400024414063,0,21" />
+    <Link Source="@117" Target="@108" Category="CallStackDirectCall" Bounds="353.614990234375,1571.9599609375,0,21" />
+    <Link Source="@118" Target="@109" Category="CallStackDirectCall" Bounds="1034.61499023438,1406.23999023438,0,21" />
+    <Link Source="@119" Target="@110" Category="CallStackDirectCall" Bounds="535.614990234375,1406.23999023438,0,21" />
+    <Link Source="@120" Target="@113" Category="CallStackDirectCall" Bounds="1074.61499023438,467.160003662109,0,21" />
+    <Link Source="@121" Target="@114" Category="CallStackDirectCall" Bounds="750.614990234375,467.160003662109,0,21" />
+    <Link Source="@122" Target="@138" Category="CallStackDirectCall" Bounds="1432.61499023438,1516.71997070313,0,462.920043945313" />
+    <Link Source="@123" Target="@139" Category="CallStackDirectCall" Bounds="58.6150016784668,1240.52001953125,0,960.080078125" />
+    <Link Source="@124" Target="@165" Category="CallStackDirectCall" Bounds="1347.55493164063,1792.92004394531,10.2874755859375,21.8568115234375" />
+    <Link Source="@125" Target="@166" Category="CallStackDirectCall" Bounds="827.614990234375,1792.92004394531,0,21" />
+    <Link Source="@126" Target="@8" Category="CallStackDirectCall" Bounds="1236.61499023438,356.679992675781,0,21" />
+    <Link Source="@127" Target="@14" Category="CallStackDirectCall" Bounds="881.614990234375,356.679992675781,0,21" />
+    <Link Source="@128" Target="@153" Category="CallStackDirectCall" Bounds="1167.61499023438,964.320007324219,0,241.960021972656" />
+    <Link Source="@128" Target="@158" Category="CallStackDirectCall" Bounds="1114.03881835938,964.320007324219,35.528076171875,24.8425903320313" />
+    <Link Source="@128" Target="@163" Category="CallStackDirectCall" Bounds="954.137329101563,964.320007324219,148.3671875,28.7572021484375" />
+    <Link Source="@129" Target="@154" Category="CallStackDirectCall" Bounds="237.909545898438,964.320007324219,78.9237670898438,27.0791625976563" />
+    <Link Source="@129" Target="@155" Category="CallStackDirectCall" Bounds="261.076477050781,964.320007324219,90.7108764648438,298.722351074219" />
+    <Link Source="@129" Target="@156" Category="CallStackDirectCall" Bounds="353.614990234375,964.320007324219,0,352.440002441406" />
+    <Link Source="@129" Target="@159" Category="CallStackDirectCall" Bounds="371.663146972656,964.320007324219,35.5279846191406,24.8425903320313" />
+    <Link Source="@13" Target="@15" Category="CallStackDirectCall" Bounds="881.614990234375,467.160003662109,0,21" />
+    <Link Source="@130" Target="@73" Category="CallStackDirectCall" Bounds="1167.61499023438,798.599975585938,0,21" />
+    <Link Source="@131" Target="@74" Category="CallStackDirectCall" Bounds="750.614990234375,798.599975585938,0,21" />
+    <Link Source="@136" Target="@122" Category="CallStackDirectCall" Bounds="1258.24645996094,1461.47998046875,113.994506835938,27.8631591796875" />
+    <Link Source="@137" Target="@123" Category="CallStackDirectCall" Bounds="97.5490341186523,1185.28002929688,64.4526443481445,26.56982421875" />
+    <Link Source="@138" Target="(Name=NetBufferEv::Read @5 @46 OverloadingParameters=[(@39 Name=data),@140] @2)" Category="CallStackDirectCall" Bounds="1432.61499023438,2013.88000488281,0,21" />
+    <Link Source="@138" Target="@86" Category="CallStackDirectCall" Bounds="1007.39239501953,2008.20825195313,366.607604980469,43.4580078125" />
+    <Link Source="@139" Target="(Name=NetBufferEv::Read @10 @46 OverloadingParameters=[(@39 Name=data),@140] @2)" Category="CallStackDirectCall" Bounds="58.6150016784668,2234.84008789063,0,21" />
+    <Link Source="@139" Target="@87" Category="CallStackDirectCall" Bounds="117.069862365723,2232.80712890625,205.84920501709,37.2822265625" />
+    <Link Source="@14" Target="@13" Category="CallStackDirectCall" Bounds="881.614990234375,411.920013427734,0,21" />
+    <Link Source="@141" Target="@193" Category="CallStackDirectCall" Bounds="853.614990234375,1958.64001464844,0,21" />
+    <Link Source="@142" Target="(Name=NetBufferEv::Write @5 @16 OverloadingParameters=[(@81 Name=data),@140] @2)" Category="CallStackDirectCall" Bounds="1367.61499023438,1903.40002441406,0,21" />
+    <Link Source="@143" Target="@141" Category="CallStackDirectCall" Bounds="853.614990234375,1903.40002441406,0,21" />
+    <Link Source="@145" Target="@75" Category="CallStackDirectCall" Bounds="339.614990234375,1848.16003417969,0,21" />
+    <Link Source="@146" Target="@88" Category="CallStackDirectCall" Bounds="1034.61499023438,1682.43994140625,0,241.960083007813" />
+    <Link Source="@146" Target="@89" Category="CallStackDirectCall" Bounds="1060.6591796875,1682.43994140625,53.8123779296875,26.075439453125" />
+    <Link Source="@146" Target="@90" Category="CallStackDirectCall" Bounds="1071.54504394531,1676.83032226563,178.746704101563,33.93115234375" />
+    <Link Source="@147" Target="@91" Category="CallStackDirectCall" Bounds="704.614990234375,1682.43994140625,0,462.920166015625" />
+    <Link Source="@147" Target="@92" Category="CallStackDirectCall" Bounds="633.831604003906,1682.43994140625,47.480712890625,25.714111328125" />
+    <Link Source="@147" Target="@93" Category="CallStackDirectCall" Bounds="729.059997558594,1682.43994140625,50.1128540039063,25.8714599609375" />
+    <Link Source="@148" Target="@145" Category="CallStackDirectCall" Bounds="339.614990234375,1792.92004394531,0,21" />
+    <Link Source="@149" Target="@146" Category="CallStackDirectCall" Bounds="1034.61499023438,1627.19995117188,0,21" />
+    <Link Source="@15" Target="@28" Category="CallStackDirectCall" Bounds="881.614990234375,522.400024414063,0,21" />
+    <Link Source="@150" Target="@147" Category="CallStackDirectCall" Bounds="566.774658203125,1624.76501464844,93.266845703125,30.4854736328125" />
+    <Link Source="@153" Target="@160" Category="CallStackDirectCall" Bounds="1176.52490234375,1240.52001953125,15.989501953125,22.647705078125" />
+    <Link Source="@154" Target="@161" Category="CallStackDirectCall" Bounds="192.615005493164,1019.55999755859,0,76.2400512695313" />
+    <Link Source="@155" Target="@162" Category="CallStackDirectCall" Bounds="203.594833374023,1295.76000976563,28.9419555664063,24.2235107421875" />
+    <Link Source="@156" Target="@34" Category="CallStackDirectCall" Bounds="353.614990234375,1351,0,21" />
+    <Link Source="@157" Target="@80" Category="CallStackDirectCall" Bounds="156.615005493164,1406.23999023438,0,683.880126953125" />
+    <Link Source="@158" Target="(Name=NetSocketPair::Read @5 @30 @2)" Category="CallStackDirectCall" Bounds="1092.27026367188,1019.55999755859,6.185546875,21.3552856445313" />
+    <Link Source="@158" Target="@32" Category="CallStackDirectCall" Bounds="1029.08862304688,1019.55999755859,39.6505126953125,25.1758422851563" />
+    <Link Source="@159" Target="(Name=NetSocketPair::Read @10 @30 @2)" Category="CallStackDirectCall" Bounds="432.614990234375,1019.55999755859,0,21.0000610351563" />
+    <Link Source="@159" Target="@37" Category="CallStackDirectCall" Bounds="456.146148681641,1019.55999755859,48.0063781738281,25.7462768554688" />
+    <Link Source="@160" Target="@136" Category="CallStackDirectCall" Bounds="1206.61499023438,1295.76000976563,0,131.47998046875" />
+    <Link Source="@161" Target="@137" Category="CallStackDirectCall" Bounds="192.615005493164,1130.0400390625,0,21" />
+    <Link Source="@162" Target="@157" Category="CallStackDirectCall" Bounds="166.037246704102,1351,9.86631774902344,21.8006591796875" />
+    <Link Source="@163" Target="@190" Category="CallStackDirectCall" Bounds="882.614990234375,1019.55999755859,0,76.2400512695313" />
+    <Link Source="@165" Target="@142" Category="CallStackDirectCall" Bounds="1367.61499023438,1848.16003417969,0,21" />
+    <Link Source="@166" Target="@143" Category="CallStackDirectCall" Bounds="833.554870605469,1848.16003417969,10.2874755859375,21.8568115234375" />
+    <Link Source="@167" Target="@86" Category="CallStackDirectCall" Bounds="990.733032226563,2013.88000488281,32.97607421875,24.6162109375" />
+    <Link Source="@168" Target="@87" Category="CallStackDirectCall" Bounds="404.324615478516,2234.84008789063,206.955474853516,35.6142578125" />
+    <Link Source="@17" Target="@18" Category="CallStackDirectCall" Bounds="1236.61499023438,190.960006713867,0,21" />
+    <Link Source="@170" Target="@128" Category="CallStackDirectCall" Bounds="1167.61499023438,909.080017089844,0,21" />
+    <Link Source="@171" Target="@129" Category="CallStackDirectCall" Bounds="441.007904052734,909.080017089844,218.909393310547,30.4598388671875" />
+    <Link Source="@172" Target="@185" Category="CallStackDirectCall" Bounds="168.951705932617,2179.60009765625,23.0352630615234,23.564208984375" />
+    <Link Source="@175" Target="@186" Category="CallStackDirectCall" Bounds="1221.61499023438,1903.40002441406,0,21" />
+    <Link Source="@176" Target="@187" Category="CallStackDirectCall" Bounds="335.614990234375,2124.36010742188,0,21" />
+    <Link Source="@177" Target="@188" Category="CallStackDirectCall" Bounds="523.614990234375,2124.36010742188,0,21" />
+    <Link Source="@179" Target="@148" Category="CallStackDirectCall" Bounds="345.024444580078,1737.68005371094,5.39215087890625,21.2757568359375" />
+    <Link Source="@18" Target="@20" Category="CallStackDirectCall" Bounds="1236.61499023438,246.199996948242,0,21.0000152587891" />
+    <Link Source="@180" Target="@149" Category="CallStackDirectCall" Bounds="1034.61499023438,1571.9599609375,0,21" />
+    <Link Source="@181" Target="@150" Category="CallStackDirectCall" Bounds="535.614990234375,1571.9599609375,0,21" />
+    <Link Source="@184" Target="@86" Category="CallStackDirectCall" Bounds="918.614990234375,1185.28002929688,31.130859375,851.806396484375" />
+    <Link Source="@185" Target="@87" Category="CallStackDirectCall" Bounds="245.56901550293,2234.84008789063,78.2607574462891,28.255615234375" />
+    <Link Source="@186" Target="@103" Category="CallStackDirectCall" Bounds="1221.61499023438,1958.64001464844,0,21" />
+    <Link Source="@187" Target="@104" Category="CallStackDirectCall" Bounds="342.011810302734,2179.60009765625,11.1373291015625,21.97216796875" />
+    <Link Source="@188" Target="@104" Category="CallStackDirectCall" Bounds="408.675476074219,2179.60009765625,78.3862915039063,27.062744140625" />
+    <Link Source="@189" Target="@100" Category="CallStackDirectCall" Bounds="598.614990234375,1958.64001464844,0,21" />
+    <Link Source="@19" Target="@22" Category="CallStackDirectCall" Bounds="1167.61499023438,632.880004882813,0,21" />
+    <Link Source="@190" Target="@184" Category="CallStackDirectCall" Bounds="890.839477539063,1130.0400390625,14.6371459960938,22.4598388671875" />
+    <Link Source="@20" Target="@126" Category="CallStackDirectCall" Bounds="1236.61499023438,301.440002441406,0,21" />
+    <Link Source="@21" Target="@19" Category="CallStackDirectCall" Bounds="1210.09387207031,577.640014648438,72.48095703125,26.8713989257813" />
+    <Link Source="@22" Target="@77" Category="CallStackDirectCall" Bounds="1167.61499023438,688.119995117188,0,21" />
+    <Link Source="@24" Target="@25" Category="CallStackDirectCall" Bounds="912.614990234375,190.960006713867,0,21" />
+    <Link Source="@25" Target="@27" Category="CallStackDirectCall" Bounds="893.101684570313,246.199996948242,12.43115234375,22.1514129638672" />
+    <Link Source="@26" Target="@29" Category="CallStackDirectCall" Bounds="750.614990234375,632.880004882813,0,21" />
+    <Link Source="@27" Target="@127" Category="CallStackDirectCall" Bounds="881.614990234375,301.440002441406,0,21" />
+    <Link Source="@28" Target="@26" Category="CallStackDirectCall" Bounds="788.835815429688,577.640014648438,62.8512573242188,26.5030517578125" />
+    <Link Source="@29" Target="@78" Category="CallStackDirectCall" Bounds="750.614990234375,688.119995117188,0,21" />
+    <Link Source="@3" Target="@41" Category="CallStackDirectCall" Bounds="1096.546875,80.4800033569336,44.33544921875,25.5113143920898" />
+    <Link Source="@3" Target="@42" Category="CallStackDirectCall" Bounds="1008.34765625,80.4800033569336,44.33544921875,25.5113143920898" />
+    <Link Source="@3" Target="@95" Category="CallStackDirectCall" Bounds="1074.61499023438,80.4800033569336,0,76.2399978637695" />
+    <Link Source="@3" Target="@96" Category="CallStackDirectCall" Bounds="786.674499511719,80.4800033569336,232.948608398438,81.5265579223633" />
+    <Link Source="@31" Target="@83" Category="CallStackDirectCall" Bounds="1037.34558105469,1185.28002929688,2.670166015625,21.0714111328125" />
+    <Link Source="@32" Target="@70" Category="CallStackDirectCall" Bounds="1013.95172119141,1074.80004882813,23.0352172851563,23.564208984375" />
+    <Link Source="@33" Target="@189" Category="CallStackDirectCall" Bounds="598.614990234375,1903.40002441406,0,21" />
+    <Link Source="@34" Target="@48" Category="CallStackDirectCall" Bounds="353.614990234375,1406.23999023438,0,21" />
+    <Link Source="@35" Target="@33" Category="CallStackDirectCall" Bounds="598.614990234375,1848.16003417969,0,21" />
+    <Link Source="@36" Target="@84" Category="CallStackDirectCall" Bounds="535.614990234375,1185.28002929688,0,21" />
+    <Link Source="@37" Target="@71" Category="CallStackDirectCall" Bounds="535.614990234375,1074.80004882813,0,21" />
+    <Link Source="@41" Target="@17" Category="CallStackDirectCall" Bounds="1185.69323730469,135.720001220703,28.94189453125,24.2235412597656" />
+    <Link Source="@42" Target="@24" Category="CallStackDirectCall" Bounds="934.594848632813,135.720001220703,28.9419555664063,24.2235412597656" />
+    <Link Source="@44" Target="@111" Category="CallStackDirectCall" Bounds="1074.61499023438,246.199996948242,0,21.0000152587891" />
+    <Link Source="@45" Target="@112" Category="CallStackDirectCall" Bounds="750.614990234375,246.199996948242,0,21.0000152587891" />
+    <Link Source="@48" Target="@50" Category="CallStackDirectCall" Bounds="353.614990234375,1461.47998046875,0,21" />
+    <Link Source="@50" Target="@117" Category="CallStackDirectCall" Bounds="353.614990234375,1516.71997070313,0,21" />
+    <Link Source="@52" Target="@58" Category="CallStackDirectCall" Bounds="1074.61499023438,356.679992675781,0,21" />
+    <Link Source="@53" Target="@59" Category="CallStackDirectCall" Bounds="750.614990234375,356.679992675781,0,21" />
+    <Link Source="@54" Target="@60" Category="CallStackDirectCall" Bounds="1034.61499023438,1295.76000976563,0,21" />
+    <Link Source="@55" Target="@61" Category="CallStackDirectCall" Bounds="535.614990234375,1295.76000976563,0,21" />
+    <Link Source="@58" Target="@120" Category="CallStackDirectCall" Bounds="1074.61499023438,411.920013427734,0,21" />
+    <Link Source="@59" Target="@121" Category="CallStackDirectCall" Bounds="750.614990234375,411.920013427734,0,21" />
+    <Link Source="@60" Target="@118" Category="CallStackDirectCall" Bounds="1034.61499023438,1351,0,21" />
+    <Link Source="@61" Target="@119" Category="CallStackDirectCall" Bounds="535.614990234375,1351,0,21" />
+    <Link Source="@62" Target="@179" Category="CallStackDirectCall" Bounds="353.614990234375,1682.43994140625,0,21" />
+    <Link Source="@63" Target="@180" Category="CallStackDirectCall" Bounds="1034.61499023438,1516.71997070313,0,21" />
+    <Link Source="@64" Target="@181" Category="CallStackDirectCall" Bounds="535.614990234375,1516.71997070313,0,21" />
+    <Link Source="@67" Target="@19" Category="CallStackDirectCall" Bounds="1048.02587890625,577.640014648438,75.700439453125,26.9786376953125" />
+    <Link Source="@68" Target="@19" Category="CallStackDirectCall" Bounds="1167.61499023438,577.640014648438,0,21" />
+    <Link Source="@69" Target="@26" Category="CallStackDirectCall" Bounds="750.614990234375,577.640014648438,0,21" />
+    <Link Source="@7" Target="@9" Category="CallStackDirectCall" Bounds="1236.61499023438,467.160003662109,0,21" />
+    <Link Source="@70" Target="@31" Category="CallStackDirectCall" Bounds="1047.0244140625,1130.0400390625,5.3922119140625,21.2757568359375" />
+    <Link Source="@71" Target="@36" Category="CallStackDirectCall" Bounds="535.614990234375,1130.0400390625,0,21" />
+    <Link Source="@73" Target="@170" Category="CallStackDirectCall" Bounds="1167.61499023438,853.840026855469,0,21" />
+    <Link Source="@74" Target="@171" Category="CallStackDirectCall" Bounds="750.614990234375,853.840026855469,0,21" />
+    <Link Source="@75" Target="@76" Category="CallStackDirectCall" Bounds="339.614990234375,1903.40002441406,0,21" />
+    <Link Source="@76" Target="@94" Category="CallStackDirectCall" Bounds="339.614990234375,1958.64001464844,0,21" />
+    <Link Source="@77" Target="@130" Category="CallStackDirectCall" Bounds="1167.61499023438,743.359985351563,0,21" />
+    <Link Source="@78" Target="@131" Category="CallStackDirectCall" Bounds="750.614990234375,743.359985351563,0,21" />
+    <Link Source="@8" Target="@7" Category="CallStackDirectCall" Bounds="1236.61499023438,411.920013427734,0,21" />
+    <Link Source="@80" Target="@172" Category="CallStackDirectCall" Bounds="156.615005493164,2124.36010742188,0,21" />
+    <Link Source="@82" Target="(Name=LogicHandle::AddSession @10 @16 OverloadingParameters=[(Type=&quot;LogicSession * {ClientReconn}&quot; Name=pSession),(Type=&quot;const HostHd &amp;&quot; Name=hd),(@43 Name=maxBuffer)] @2)" Category="CallStackDirectCall" Bounds="498.970947265625,1792.92004394531,67.6599731445313,26.6966552734375" />
+    <Link Source="@82" Target="@35" Category="CallStackDirectCall" Bounds="598.614990234375,1792.92004394531,0,21" />
+    <Link Source="@83" Target="@54" Category="CallStackDirectCall" Bounds="1034.61499023438,1240.52001953125,0,21" />
+    <Link Source="@84" Target="@55" Category="CallStackDirectCall" Bounds="535.614990234375,1240.52001953125,0,21" />
+    <Link Source="@86" Target="(Name=NetSocketPair::Write @5 @16 @2)" Category="CallStackDirectCall" Bounds="966.614990234375,2069.1201171875,0,21" />
+    <Link Source="@87" Target="(Name=NetSocketPair::Write @10 @16 @2)" Category="CallStackDirectCall" Bounds="363.614990234375,2290.080078125,0,21" />
+    <Link Source="@88" Target="@167" Category="CallStackDirectCall" Bounds="1035.98571777344,1958.64001464844,2.2867431640625,21.0526123046875" />
+    <Link Source="@89" Target="@102" Category="CallStackDirectCall" Bounds="1154.78332519531,1737.68005371094,10.711181640625,21.9141845703125" />
+    <Link Source="@9" Target="@21" Category="CallStackDirectCall" Bounds="1254.8916015625,522.400024414063,36.040771484375,24.8861694335938" />
+    <Link Source="@90" Target="@124" Category="CallStackDirectCall" Bounds="1329.27026367188,1737.68005371094,6.185546875,21.355224609375" />
+    <Link Source="@91" Target="@168" Category="CallStackDirectCall" Bounds="692.248046875,2179.60009765625,7.79779052734375,21.53759765625" />
+    <Link Source="@92" Target="@82" Category="CallStackDirectCall" Bounds="600.178833007813,1737.68005371094,1.5223388671875,21.0234375" />
+    <Link Source="@93" Target="@125" Category="CallStackDirectCall" Bounds="815.270324707031,1737.68005371094,6.18548583984375,21.355224609375" />
+    <Link Source="@94" Target="@98" Category="CallStackDirectCall" Bounds="339.614990234375,2013.88000488281,0,21" />
+    <Link Source="@95" Target="@44" Category="CallStackDirectCall" Bounds="1074.61499023438,190.960006713867,0,21" />
+    <Link Source="@96" Target="@45" Category="CallStackDirectCall" Bounds="750.614990234375,190.960006713867,0,21" />
+    <Link Source="@98" Target="@176" Category="CallStackDirectCall" Bounds="337.178833007813,2069.1201171875,1.5223388671875,21.0234375" />
+    <Link Source="@99" Target="@177" Category="CallStackDirectCall" Bounds="547.995910644531,2069.1201171875,33.4847412109375,24.66259765625" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="调用堆栈直接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈直接调用" OutgoingActionLabel="调用堆栈直接调用" />
+    <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="未解析的方法" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="未解析的方法" />
+    <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="外部调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部调用堆栈入口" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="是外部的" Description="一个标志，用于指示此节点是否被认为是外部的" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="是无法解析的" ValueType="System.String" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=kernel32.dll" />
+    <Alias n="2" Id="IsUnresolved=True" />
+    <Alias n="3" Id="(Name=00007ffae9ea54e0 @1 @2)" />
+    <Alias n="4" Uri="Assembly=ntdll.dll" />
+    <Alias n="5" Uri="Assembly=xrgate_d.exe" />
+    <Alias n="6" Id="Type=bool" />
+    <Alias n="7" Id="(Name=SvrAppBase::_Run @5 @6 @2)" />
+    <Alias n="8" Id="(Name=SvrAppBase::MainLoop @5 @6 @2)" />
+    <Alias n="9" Id="(Name=SvrAppBase::Run @5 @6 @2)" />
+    <Alias n="10" Uri="Assembly=xrclient_d.exe" />
+    <Alias n="13" Id="(Name=SvrAppBase::_Run @10 @6 @2)" />
+    <Alias n="14" Id="(Name=SvrAppBase::MainLoop @10 @6 @2)" />
+    <Alias n="15" Id="(Name=SvrAppBase::Run @10 @6 @2)" />
+    <Alias n="16" Id="Type=int" />
+    <Alias n="17" Id="(Name=__scrt_common_main @5 @16 @2)" />
+    <Alias n="18" Id="(Name=__scrt_common_main_seh @5 @16 @2)" />
+    <Alias n="19" Id="(Name=EventThread::MainLoop @5 @16 @2)" />
+    <Alias n="20" Id="(Name=invoke_main @5 @16 @2)" />
+    <Alias n="21" Id="(Name=LogicThread::MainLoop @5 @16 @2)" />
+    <Alias n="22" Id="(Name=NetEventBase::event_dispatch @5 @16 @2)" />
+    <Alias n="24" Id="(Name=__scrt_common_main @10 @16 @2)" />
+    <Alias n="25" Id="(Name=__scrt_common_main_seh @10 @16 @2)" />
+    <Alias n="26" Id="(Name=EventThread::MainLoop @10 @16 @2)" />
+    <Alias n="27" Id="(Name=invoke_main @10 @16 @2)" />
+    <Alias n="28" Id="(Name=LogicThread::MainLoop @10 @16 @2)" />
+    <Alias n="29" Id="(Name=NetEventBase::event_dispatch @10 @16 @2)" />
+    <Alias n="30" Id="Type=void" />
+    <Alias n="31" Id="(Name=MsgQueue::Pop @5 @30 @2)" />
+    <Alias n="32" Id="(Name=NetSocketPair::_DoCall @5 @30 @2)" />
+    <Alias n="33" Id="(Name=ClientReconn::OnConnect @10 @30 @2)" />
+    <Alias n="34" Id="(Name=EventTimer::OnTimer @10 @30 @2)" />
+    <Alias n="35" Id="(Name=LogicSession::OnConnected @10 @30 @2)" />
+    <Alias n="36" Id="(Name=MsgQueue::Pop @10 @30 @2)" />
+    <Alias n="37" Id="(Name=NetSocketPair::_DoCall @10 @30 @2)" />
+    <Alias n="38" Id="Type=&quot;unsigned long&quot;" />
+    <Alias n="39" Id="Type=&quot;void *&quot;" />
+    <Alias n="40" Id="Name=__formal" />
+    <Alias n="41" Id="(Name=mainCRTStartup @5 @38 OverloadingParameters=[(@39 @40)] @2)" />
+    <Alias n="42" Id="(Name=mainCRTStartup @10 @38 OverloadingParameters=[(@39 @40)] @2)" />
+    <Alias n="43" Id="Type=&quot;unsigned int&quot;" />
+    <Alias n="44" Id="(Name=&quot;std::thread::_Invoke&lt;std::tuple&lt;std::function&lt;unsigned int __cdecl(void *)&gt;,void *&gt;,0,1&gt;&quot; @5 @43 OverloadingParameters=[(@39 Name=_RawVals)] @2)" />
+    <Alias n="45" Id="(Name=&quot;std::thread::_Invoke&lt;std::tuple&lt;std::function&lt;unsigned int __cdecl(void *)&gt;,void *&gt;,0,1&gt;&quot; @10 @43 OverloadingParameters=[(@39 Name=_RawVals)] @2)" />
+    <Alias n="46" Id="Type=&quot;unsigned __int64&quot;" />
+    <Alias n="47" Id="Name=&lt;_Args_0&gt;" />
+    <Alias n="48" Id="(Name=&quot;std::_Func_class&lt;void,unsigned __int64&gt;::operator()&quot; @10 @30 OverloadingParameters=[(@46 @47)] @2)" />
+    <Alias n="49" Id="Type=&quot;unsigned __int64 &amp;&amp;&quot;" />
+    <Alias n="50" Id="(Name=&quot;std::_Func_impl_no_alloc&lt;std::_Binder&lt;std::_Unforced,void (__cdecl LogicThread::*)(unsigned __int64),LogicThread *,std::_Ph&lt;1&gt; const &amp;&gt;,void,unsigned __int64&gt;::_Do_call&quot; @10 @30 OverloadingParameters=[(@49 @47)] @2)" />
+    <Alias n="51" Id="OverloadingParameters=[(@39 @47)]" />
+    <Alias n="52" Id="(Name=&quot;std::_Func_class&lt;unsigned int,void *&gt;::operator()&quot; @5 @43 @51 @2)" />
+    <Alias n="53" Id="(Name=&quot;std::_Func_class&lt;unsigned int,void *&gt;::operator()&quot; @10 @43 @51 @2)" />
+    <Alias n="54" Id="(Name=&quot;std::_Func_class&lt;void,void *&gt;::operator()&quot; @5 @30 @51 @2)" />
+    <Alias n="55" Id="(Name=&quot;std::_Func_class&lt;void,void *&gt;::operator()&quot; @10 @30 @51 @2)" />
+    <Alias n="56" Id="Type=&quot;void * &amp;&amp;&quot;" />
+    <Alias n="57" Id="OverloadingParameters=[(@56 @47)]" />
+    <Alias n="58" Id="(Name=&quot;std::_Func_impl_no_alloc&lt;unsigned int (__cdecl*)(void *),unsigned int,void *&gt;::_Do_call&quot; @5 @43 @57 @2)" />
+    <Alias n="59" Id="(Name=&quot;std::_Func_impl_no_alloc&lt;unsigned int (__cdecl*)(void *),unsigned int,void *&gt;::_Do_call&quot; @10 @43 @57 @2)" />
+    <Alias n="60" Id="(Name=&quot;std::_Func_impl_no_alloc&lt;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt;,void,void *&gt;::_Do_call&quot; @5 @30 @57 @2)" />
+    <Alias n="61" Id="(Name=&quot;std::_Func_impl_no_alloc&lt;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt;,void,void *&gt;::_Do_call&quot; @10 @30 @57 @2)" />
+    <Alias n="62" Id="(Name=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl LogicThread::*)(unsigned __int64),LogicThread *,std::_Ph&lt;1&gt; const &amp;&gt;::operator()&lt;unsigned __int64&gt;&quot; @10 @30 OverloadingParameters=[(@49 Name=&lt;_Unbargs_0&gt;)] @2)" />
+    <Alias n="63" Id="(Name=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt;::operator()&lt;void *&gt;&quot; @5 @30 OverloadingParameters=[(@56 Name=&lt;_Unbargs_0&gt;)] @2)" />
+    <Alias n="64" Id="(Name=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt;::operator()&lt;void *&gt;&quot; @10 @30 OverloadingParameters=[(@56 Name=&lt;_Unbargs_0&gt;)] @2)" />
+    <Alias n="65" Id="(@39 Name=args)" />
+    <Alias n="66" Id="OverloadingParameters=[@65]" />
+    <Alias n="67" Id="(Name=io_thread_fn @5 @43 @66 @2)" />
+    <Alias n="68" Id="(Name=ListenThread::_ListenThreadFunc @5 @43 @66 @2)" />
+    <Alias n="69" Id="(Name=io_thread_fn @10 @43 @66 @2)" />
+    <Alias n="70" Id="(Name=event_msgqueue_pop @5 @30 @66 @2)" />
+    <Alias n="71" Id="(Name=event_msgqueue_pop @10 @30 @66 @2)" />
+    <Alias n="72" Id="(Type=&quot;event_base *&quot; Name=base)" />
+    <Alias n="73" Id="(Name=event_process_active @5 @16 OverloadingParameters=[@72] @2)" />
+    <Alias n="74" Id="(Name=event_process_active @10 @16 OverloadingParameters=[@72] @2)" />
+    <Alias n="75" Id="(Name=LogicThread::OnTimer @10 @30 OverloadingParameters=[(@46 Name=dwTM)] @2)" />
+    <Alias n="76" Id="(Name=ReconnEvent::OnTimer @10 @30 OverloadingParameters=[(@46 Name=dwTM)] @2)" />
+    <Alias n="77" Id="(Name=event_base_dispatch @5 @16 OverloadingParameters=[(Type=&quot;event_base *&quot; Name=event_base)] @2)" />
+    <Alias n="78" Id="(Name=event_base_dispatch @10 @16 OverloadingParameters=[(Type=&quot;event_base *&quot; Name=event_base)] @2)" />
+    <Alias n="79" Id="Type=short" />
+    <Alias n="80" Id="(Name=ReconnEvent::OnConnect @10 @30 OverloadingParameters=[(@79 Name=events)] @2)" />
+    <Alias n="81" Id="Type=&quot;const void *&quot;" />
+    <Alias n="82" Id="(Name=LogicHandle::OnHandleConnMsg @10 @30 OverloadingParameters=[(@81 Name=msg)] @2)" />
+    <Alias n="83" Id="(Name=MsgQueue::Run @5 @6 OverloadingParameters=[(@39 Name=msg)] @2)" />
+    <Alias n="84" Id="(Name=MsgQueue::Run @10 @6 OverloadingParameters=[(@39 Name=msg)] @2)" />
+    <Alias n="85" Id="OverloadingParameters=[(Type=&quot;void * const&quot; Name=msg)]" />
+    <Alias n="86" Id="(Name=MsgQueue::Push @5 @6 @85 @2)" />
+    <Alias n="87" Id="(Name=MsgQueue::Push @10 @6 @85 @2)" />
+    <Alias n="88" Id="(Name=IoThread::_OnMsgAcceptFunc @5 @30 @85 @2)" />
+    <Alias n="89" Id="(Name=IoThread::_OnMsgInputFunc @5 @30 @85 @2)" />
+    <Alias n="90" Id="(Name=IoThread::_OnMsgOutputFunc @5 @30 @85 @2)" />
+    <Alias n="91" Id="(Name=IoThread::_OnMsgAcceptFunc @10 @30 @85 @2)" />
+    <Alias n="92" Id="(Name=IoThread::_OnMsgInputFunc @10 @30 @85 @2)" />
+    <Alias n="93" Id="(Name=IoThread::_OnMsgOutputFunc @10 @30 @85 @2)" />
+    <Alias n="94" Id="(Name=LogicSession::SendPing @10 @30 OverloadingParameters=[(Type=__int64 Name=nInterval)] @2)" />
+    <Alias n="95" Id="(Name=&quot;thread_start&lt;unsigned int (__cdecl*)(void *),1&gt;&quot; @5 @38 OverloadingParameters=[(Type=&quot;void * const&quot; Name=parameter)] @2)" />
+    <Alias n="96" Id="(Name=&quot;thread_start&lt;unsigned int (__cdecl*)(void *),1&gt;&quot; @10 @38 OverloadingParameters=[(Type=&quot;void * const&quot; Name=parameter)] @2)" />
+    <Alias n="97" Id="Name=pMsg" />
+    <Alias n="98" Id="(Name=LogicSession::SendNet @10 @6 OverloadingParameters=[(Type=&quot;const MsgHead *&quot; @97)] @2)" />
+    <Alias n="99" Id="(Name=LogicSession::SendNet @10 @6 OverloadingParameters=[(Type=&quot;NetMsg *&quot; @97)] @2)" />
+    <Alias n="100" Id="(Name=NetReconn::_Send @10 @6 OverloadingParameters=[(Type=&quot;NetMsg *&quot; @97)] @2)" />
+    <Alias n="101" Id="(Name=LogicHandle::OnHandleLogicMsg @5 @6 OverloadingParameters=[(Type=&quot;const NetMsg *&quot; Name=pNetMsg)] @2)" />
+    <Alias n="102" Id="(Name=SvrLogicHandle::OnHandleLogicMsg @5 @6 OverloadingParameters=[(Type=&quot;const NetMsg *&quot; Name=pNetMsg)] @2)" />
+    <Alias n="103" Id="(Name=IoThreadControl::SendMsgHton @5 @6 OverloadingParameters=[(@39 Name=pNetMsg)] @2)" />
+    <Alias n="104" Id="(Name=IoThreadControl::SendMsgHton @10 @6 OverloadingParameters=[(@39 Name=pNetMsg)] @2)" />
+    <Alias n="106" Id="Name=_Obj" />
+    <Alias n="107" Id="Name=_Arg1" />
+    <Alias n="108" Id="(Name=&quot;std::invoke&lt;std::_Binder&lt;std::_Unforced,void (__cdecl LogicThread::*)(unsigned __int64),LogicThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;,unsigned __int64&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl LogicThread::*)(unsigned __int64),LogicThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;&quot; @106),(@49 @107)] @2)" />
+    <Alias n="109" Id="(Name=&quot;std::invoke&lt;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;,void *&gt;&quot; @5 @30 OverloadingParameters=[(Type=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;&quot; @106),(@56 @107)] @2)" />
+    <Alias n="110" Id="(Name=&quot;std::invoke&lt;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;,void *&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;&quot; @106),(@56 @107)] @2)" />
+    <Alias n="111" Id="(Name=&quot;std::invoke&lt;std::function&lt;unsigned int __cdecl(void *)&gt;,void *&gt;&quot; @5 @43 OverloadingParameters=[(Type=&quot;std::function&lt;unsigned int __cdecl(void *)&gt; &amp;&amp;&quot; @106),(@56 @107)] @2)" />
+    <Alias n="112" Id="(Name=&quot;std::invoke&lt;std::function&lt;unsigned int __cdecl(void *)&gt;,void *&gt;&quot; @10 @43 OverloadingParameters=[(Type=&quot;std::function&lt;unsigned int __cdecl(void *)&gt; &amp;&amp;&quot; @106),(@56 @107)] @2)" />
+    <Alias n="113" Id="(Name=&quot;std::invoke&lt;unsigned int (__cdecl*&amp;)(void *),void *&gt;&quot; @5 @43 OverloadingParameters=[(Type=&quot;unsigned int(*)(void *) &amp;&quot; @106),(@56 @107)] @2)" />
+    <Alias n="114" Id="(Name=&quot;std::invoke&lt;unsigned int (__cdecl*&amp;)(void *),void *&gt;&quot; @10 @43 OverloadingParameters=[(Type=&quot;unsigned int(*)(void *) &amp;&quot; @106),(@56 @107)] @2)" />
+    <Alias n="115" Id="Name=_Func" />
+    <Alias n="116" Id="Name=&lt;_Vals_0&gt;" />
+    <Alias n="117" Id="(Name=&quot;std::_Invoker_ret&lt;void,1&gt;::_Call&lt;std::_Binder&lt;std::_Unforced,void (__cdecl LogicThread::*)(unsigned __int64),LogicThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;,unsigned __int64&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl LogicThread::*)(unsigned __int64),LogicThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;&quot; @115),(@49 @116)] @2)" />
+    <Alias n="118" Id="(Name=&quot;std::_Invoker_ret&lt;void,1&gt;::_Call&lt;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;,void *&gt;&quot; @5 @30 OverloadingParameters=[(Type=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;&quot; @115),(@56 @116)] @2)" />
+    <Alias n="119" Id="(Name=&quot;std::_Invoker_ret&lt;void,1&gt;::_Call&lt;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;,void *&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;std::_Binder&lt;std::_Unforced,void (__cdecl IoThread::*)(void *),IoThread *,std::_Ph&lt;1&gt; const &amp;&gt; &amp;&quot; @115),(@56 @116)] @2)" />
+    <Alias n="120" Id="(Name=&quot;std::_Invoker_ret&lt;unsigned int,0&gt;::_Call&lt;unsigned int (__cdecl*&amp;)(void *),void *&gt;&quot; @5 @43 OverloadingParameters=[(Type=&quot;unsigned int(*)(void *) &amp;&quot; @115),(@56 @116)] @2)" />
+    <Alias n="121" Id="(Name=&quot;std::_Invoker_ret&lt;unsigned int,0&gt;::_Call&lt;unsigned int (__cdecl*&amp;)(void *),void *&gt;&quot; @10 @43 OverloadingParameters=[(Type=&quot;unsigned int(*)(void *) &amp;&quot; @115),(@56 @116)] @2)" />
+    <Alias n="122" Id="(Name=conn_read_cb @5 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=pBuffer),@65] @2)" />
+    <Alias n="123" Id="(Name=conn_read_cb @10 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=pBuffer),@65] @2)" />
+    <Alias n="124" Id="(Name=io_send_msg_x @5 @30 OverloadingParameters=[(@81 @97),@65] @2)" />
+    <Alias n="125" Id="(Name=io_send_msg_x @10 @30 OverloadingParameters=[(@81 @97),@65] @2)" />
+    <Alias n="126" Id="(Name=main @5 @16 OverloadingParameters=[(@16 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @2)" />
+    <Alias n="127" Id="(Name=main @10 @16 OverloadingParameters=[(@16 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @2)" />
+    <Alias n="128" Id="(Name=event_persist_closure @5 @30 OverloadingParameters=[@72,(Type=&quot;event *&quot; Name=ev)] @2)" />
+    <Alias n="129" Id="(Name=event_persist_closure @10 @30 OverloadingParameters=[@72,(Type=&quot;event *&quot; Name=ev)] @2)" />
+    <Alias n="130" Id="(Name=event_base_loop @5 @16 OverloadingParameters=[@72,(@16 Name=flags)] @2)" />
+    <Alias n="131" Id="(Name=event_base_loop @10 @16 OverloadingParameters=[@72,(@16 Name=flags)] @2)" />
+    <Alias n="136" Id="(Name=bufferevent_run_readcb_ @5 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=bufev),(@16 Name=options)] @2)" />
+    <Alias n="137" Id="(Name=bufferevent_run_readcb_ @10 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=bufev),(@16 Name=options)] @2)" />
+    <Alias n="138" Id="(Name=io_recv_msg_x @5 Type=EParseResult OverloadingParameters=[(Type=&quot;NetConn *&quot; Name=pConn),(Type=&quot;MsgQueue *&quot; Name=pInputQueue)] @2)" />
+    <Alias n="139" Id="(Name=io_recv_msg_x @10 Type=EParseResult OverloadingParameters=[(Type=&quot;NetConn *&quot; Name=pConn),(Type=&quot;MsgQueue *&quot; Name=pInputQueue)] @2)" />
+    <Alias n="140" Id="(@46 Name=size)" />
+    <Alias n="141" Id="(Name=NetBufferEv::Write @10 @16 OverloadingParameters=[(@81 Name=data),@140] @2)" />
+    <Alias n="142" Id="(Name=NetConn::Write @5 @16 OverloadingParameters=[(@81 Name=pData),@140] @2)" />
+    <Alias n="143" Id="(Name=NetConn::Write @10 @16 OverloadingParameters=[(@81 Name=pData),@140] @2)" />
+    <Alias n="145" Id="(Name=&quot;std::invoke&lt;void (__cdecl LogicThread::*&amp;)(unsigned __int64),LogicThread * &amp;,unsigned __int64&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;void(LogicThread::*)(unsigned __int64) &amp;&quot; @106),(Type=&quot;LogicThread * &amp;&quot; @107),(@49 Name=&lt;_Args2_0&gt;)] @2)" />
+    <Alias n="146" Id="(Name=&quot;std::invoke&lt;void (__cdecl IoThread::*&amp;)(void *),IoThread * &amp;,void *&gt;&quot; @5 @30 OverloadingParameters=[(Type=&quot;void(IoThread::*)(void *) &amp;&quot; @106),(Type=&quot;IoThread * &amp;&quot; @107),(@56 Name=&lt;_Args2_0&gt;)] @2)" />
+    <Alias n="147" Id="(Name=&quot;std::invoke&lt;void (__cdecl IoThread::*&amp;)(void *),IoThread * &amp;,void *&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;void(IoThread::*)(void *) &amp;&quot; @106),(Type=&quot;IoThread * &amp;&quot; @107),(@56 Name=&lt;_Args2_0&gt;)] @2)" />
+    <Alias n="148" Id="(Name=&quot;std::_Invoker_ret&lt;std::_Unforced,0&gt;::_Call&lt;void (__cdecl LogicThread::*&amp;)(unsigned __int64),LogicThread * &amp;,unsigned __int64&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;void(LogicThread::*)(unsigned __int64) &amp;&quot; @115),(Type=&quot;LogicThread * &amp;&quot; @116),(@49 Name=&lt;_Vals_1&gt;)] @2)" />
+    <Alias n="149" Id="(Name=&quot;std::_Invoker_ret&lt;std::_Unforced,0&gt;::_Call&lt;void (__cdecl IoThread::*&amp;)(void *),IoThread * &amp;,void *&gt;&quot; @5 @30 OverloadingParameters=[(Type=&quot;void(IoThread::*)(void *) &amp;&quot; @115),(Type=&quot;IoThread * &amp;&quot; @116),(@56 Name=&lt;_Vals_1&gt;)] @2)" />
+    <Alias n="150" Id="(Name=&quot;std::_Invoker_ret&lt;std::_Unforced,0&gt;::_Call&lt;void (__cdecl IoThread::*&amp;)(void *),IoThread * &amp;,void *&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;void(IoThread::*)(void *) &amp;&quot; @115),(Type=&quot;IoThread * &amp;&quot; @116),(@56 Name=&lt;_Vals_1&gt;)] @2)" />
+    <Alias n="151" Id="(Type=__int64 Name=fd)" />
+    <Alias n="152" Id="OverloadingParameters=[@151,(@79 Name=event),(@39 Name=arg)]" />
+    <Alias n="153" Id="(Name=bufferevent_readcb @5 @30 @152 @2)" />
+    <Alias n="154" Id="(Name=bufferevent_readcb @10 @30 @152 @2)" />
+    <Alias n="155" Id="(Name=bufferevent_writecb @10 @30 @152 @2)" />
+    <Alias n="156" Id="(Name=timeout_cb @10 @30 @152 @2)" />
+    <Alias n="157" Id="(Name=reconnect_cb @10 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=bev),(@79 Name=events),(@39 Name=arg)] @2)" />
+    <Alias n="158" Id="(Name=NetSocketPair::_EventPop @5 @30 OverloadingParameters=[@151,(@79 Name=events),@65] @2)" />
+    <Alias n="159" Id="(Name=NetSocketPair::_EventPop @10 @30 OverloadingParameters=[@151,(@79 Name=events),@65] @2)" />
+    <Alias n="160" Id="(Name=bufferevent_trigger_nolock_ @5 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=bufev),(@79 Name=iotype),(@16 Name=options)] @2)" />
+    <Alias n="161" Id="(Name=bufferevent_trigger_nolock_ @10 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=bufev),(@79 Name=iotype),(@16 Name=options)] @2)" />
+    <Alias n="162" Id="(Name=bufferevent_run_eventcb_ @10 @30 OverloadingParameters=[(Type=&quot;bufferevent *&quot; Name=bufev),(@79 Name=what),(@16 Name=options)] @2)" />
+    <Alias n="163" Id="(Name=listener_read_cb @5 @30 OverloadingParameters=[@151,(@79 Name=what),(@39 Name=p)] @2)" />
+    <Alias n="164" Id="Type=&quot;unsigned short&quot;" />
+    <Alias n="165" Id="(Name=NetConnPool::Write @5 @16 OverloadingParameters=[(@164 Name=id),(@81 Name=pData),@140] @2)" />
+    <Alias n="166" Id="(Name=NetConnPool::Write @10 @16 OverloadingParameters=[(@164 Name=id),(@81 Name=pData),@140] @2)" />
+    <Alias n="167" Id="(Name=io_notify_logic_conn_msg @5 @16 OverloadingParameters=[(Type=&quot;NetConn *&quot; Name=pConn),(Type=EConnState Name=state),(@43 Name=soid)] @2)" />
+    <Alias n="168" Id="(Name=io_notify_logic_conn_msg @10 @16 OverloadingParameters=[(Type=&quot;NetConn *&quot; Name=pConn),(Type=EConnState Name=state),(@43 Name=soid)] @2)" />
+    <Alias n="170" Id="(Name=event_process_active_single_queue @5 @16 OverloadingParameters=[@72,(Type=&quot;evcallback_list *&quot; Name=activeq),(@16 Name=max_to_process),(Type=&quot;const timeval *&quot; Name=endtime)] @2)" />
+    <Alias n="171" Id="(Name=event_process_active_single_queue @10 @16 OverloadingParameters=[@72,(Type=&quot;evcallback_list *&quot; Name=activeq),(@16 Name=max_to_process),(Type=&quot;const timeval *&quot; Name=endtime)] @2)" />
+    <Alias n="172" Id="(Name=IoThreadControl::DispatchConnect @10 @16 OverloadingParameters=[@151,(@43 Name=soid),(Type=sockaddr Name=addr),(@43 Name=maxBuffer)] @2)" />
+    <Alias n="173" Id="(Type=&quot;IoThreadControl *&quot; Name=pThreadCtl)" />
+    <Alias n="174" Id="(@164 Name=toid)" />
+    <Alias n="175" Id="(Name=send_conn_msg_x @5 @6 OverloadingParameters=[@173,@174,(@164 Name=coid),(Type=&quot;const MsgHead *&quot; @97)] @2)" />
+    <Alias n="176" Id="(Name=send_conn_msg_x @10 @6 OverloadingParameters=[@173,@174,(@164 Name=coid),(Type=&quot;const MsgHead *&quot; @97)] @2)" />
+    <Alias n="177" Id="(Name=send_conn_msg @10 @6 OverloadingParameters=[@173,@174,(@164 Name=coid),(Type=&quot;NetMsg *&quot; @97)] @2)" />
+    <Alias n="179" Id="(Name=&quot;std::_Call_binder&lt;std::_Unforced,0,1,void (__cdecl LogicThread::*)(unsigned __int64),std::tuple&lt;LogicThread *,std::_Ph&lt;1&gt;&gt;,std::tuple&lt;unsigned __int64 &amp;&amp;&gt;&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;std::_Invoker_ret&lt;std::_Unforced,0&gt;&quot; @40),(Type=&quot;std::integer_sequence&lt;unsigned __int64,0,1&gt;&quot; @40),(Type=&quot;void(LogicThread::*)(unsigned __int64) &amp;&quot; @106),(Type=&quot;std::tuple&lt;LogicThread *,std::_Ph&lt;1&gt;&gt; &amp;&quot; Name=_Tpl),(Type=&quot;std::tuple&lt;unsigned __int64 &amp;&amp;&gt; &amp;&amp;&quot; Name=_Ut)] @2)" />
+    <Alias n="180" Id="(Name=&quot;std::_Call_binder&lt;std::_Unforced,0,1,void (__cdecl IoThread::*)(void *),std::tuple&lt;IoThread *,std::_Ph&lt;1&gt;&gt;,std::tuple&lt;void * &amp;&amp;&gt;&gt;&quot; @5 @30 OverloadingParameters=[(Type=&quot;std::_Invoker_ret&lt;std::_Unforced,0&gt;&quot; @40),(Type=&quot;std::integer_sequence&lt;unsigned __int64,0,1&gt;&quot; @40),(Type=&quot;void(IoThread::*)(void *) &amp;&quot; @106),(Type=&quot;std::tuple&lt;IoThread *,std::_Ph&lt;1&gt;&gt; &amp;&quot; Name=_Tpl),(Type=&quot;std::tuple&lt;void * &amp;&amp;&gt; &amp;&amp;&quot; Name=_Ut)] @2)" />
+    <Alias n="181" Id="(Name=&quot;std::_Call_binder&lt;std::_Unforced,0,1,void (__cdecl IoThread::*)(void *),std::tuple&lt;IoThread *,std::_Ph&lt;1&gt;&gt;,std::tuple&lt;void * &amp;&amp;&gt;&gt;&quot; @10 @30 OverloadingParameters=[(Type=&quot;std::_Invoker_ret&lt;std::_Unforced,0&gt;&quot; @40),(Type=&quot;std::integer_sequence&lt;unsigned __int64,0,1&gt;&quot; @40),(Type=&quot;void(IoThread::*)(void *) &amp;&quot; @106),(Type=&quot;std::tuple&lt;IoThread *,std::_Ph&lt;1&gt;&gt; &amp;&quot; Name=_Tpl),(Type=&quot;std::tuple&lt;void * &amp;&amp;&gt; &amp;&amp;&quot; Name=_Ut)] @2)" />
+    <Alias n="182" Id="Type=&quot;const char *&quot;" />
+    <Alias n="184" Id="(Name=IoThreadControl::DispatchAccpet @5 @16 OverloadingParameters=[@151,(@43 Name=soid),(Type=sockaddr Name=addr),(@43 Name=maxBuffer),(Type=EConnType Name=accepted)] @2)" />
+    <Alias n="185" Id="(Name=IoThreadControl::DispatchAccpet @10 @16 OverloadingParameters=[@151,(@43 Name=soid),(Type=sockaddr Name=addr),(@43 Name=maxBuffer),(Type=EConnType Name=accepted)] @2)" />
+    <Alias n="186" Id="(Name=multicast_conn_msg_x @5 @6 OverloadingParameters=[@173,@174,(Type=&quot;const unsigned short *&quot; Name=pCoids),(@164 Name=count),(Type=&quot;const MsgHead *&quot; @97)] @2)" />
+    <Alias n="187" Id="(Name=multicast_conn_msg_x @10 @6 OverloadingParameters=[@173,@174,(Type=&quot;const unsigned short *&quot; Name=pCoids),(@164 Name=count),(Type=&quot;const MsgHead *&quot; @97)] @2)" />
+    <Alias n="188" Id="(Name=multicast_conn_msg @10 @6 OverloadingParameters=[@173,@174,(Type=&quot;const unsigned short *&quot; Name=pCoids),(@164 Name=count),(Type=&quot;NetMsg *&quot; Name=pNetMsg)] @2)" />
+    <Alias n="189" Id="(Name=SvrReconn::SendMsg @10 @6 OverloadingParameters=[(Type=&quot;google::protobuf::Message * {XrPb::Msg_Login_VerifyAccount_CS}&quot; @97),(Type=&quot;unsigned char&quot; Name=usProto),(Type=&quot;unsigned char&quot; Name=usModule),(@164 Name=usCode),(@43 Name=seqid)] @2)" />
+    <Alias n="190" Id="(Name=_ListenCallBack @5 @30 OverloadingParameters=[(Type=&quot;evconnlistener *&quot; Name=pListener),@151,(Type=&quot;sockaddr *&quot; Name=pSockAddr),(@16 Name=socklen),(@39 Name=user_data)] @2)" />
+    <Alias n="193" Id="(Name=&quot;LogMgr::Write&lt;unsigned long,unsigned __int64,__int64&gt;&quot; @10 @6 OverloadingParameters=[(Type=ELogLevel Name=eLL),(@182 Name=pLogName),(@182 Name=pFileName),(@182 Name=pFuncName),(@16 Name=nLine),(@182 Name=pMsgFormat),(Type=&quot;unsigned long &amp;&amp;&quot; Name=&lt;args_0&gt;),(@49 Name=&lt;args_1&gt;),(Type=&quot;__int64 &amp;&amp;&quot; Name=&lt;args_2&gt;)] @2)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈(无源)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('CodeSchema_SourceLocation')" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FF0072C6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈(源)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FF717171" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="测试项目" ValueLabel="测试项目">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web 项目" ValueLabel="Web 项目">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows 应用商店项目" ValueLabel="Windows 应用商店项目">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="电话项目" ValueLabel="电话项目">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="可移植库" ValueLabel="可移植库">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF 项目" ValueLabel="WPF 项目">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX 项目" ValueLabel="VSIX 项目">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="建模项目" ValueLabel="建模项目">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF0E70C0" />
+      <Setter Property="Stroke" Value="#FF0E70C0" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 参数" ValueLabel="具有类别">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="参数" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="局部变量" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="继承自" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="实现" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="调用" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函数指针" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段读取" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段写入" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="返回" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="引用" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="使用特性" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="解决方案文件夹" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="项目引用" ValueLabel="项目引用">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="外部引用" ValueLabel="外部引用">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
