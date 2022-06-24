@@ -193,7 +193,7 @@ int IoThreadControl::DispatchAccpet(SOCKET_T fd, session_oid_t soid
     pConn->soid = soid;
     pConn->maxBuffer = maxBuffer;
     pConn->addr = addr;
-
+    LOG_MINE("mine", "fd:%d", fd);
     if (!MsgQueue.Push((void*) pConn))
     {
         LOG_ERROR("accept!");

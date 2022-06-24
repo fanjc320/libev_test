@@ -49,7 +49,7 @@ int logic_notify_io_conn_msg(IoThreadControl* pThreadCtl, const HostHd& hd,
     {
         return -1;
     }
-    LOG_MINE("mine", "", " hd_thid:%d hd_connid:%d", hd.threadOid, hd.connOid);
+    LOG_MINE("mine", "hd_thid:%d hd_connid:%d state:%d", hd.threadOid, hd.connOid, state);
     MsgQueue& OutputQueue = pThread->OutPut();
 
     ConnMsg* pConnMsg = conn_msg_alloc();

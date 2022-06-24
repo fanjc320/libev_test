@@ -42,7 +42,7 @@ void _ListenCallBack(struct evconnlistener* pListener, SOCKET_T fd,
         sock_opt::CloseSocket(fd);
         return;
     }
-    LOG_MINE("mine", "", "");
+    LOG_MINE("mine", "fd:%d", fd);
     if (pThreadCtl->DispatchAccpet(fd, INVALID_SESSION_OID
         , *pSockAddr, 0) == -1)
     {
@@ -82,7 +82,7 @@ int ListenThread::_AddListen(const char* szIp, uint16_t port)
 
     SOCKET_T fd = pListener->GetFd();
     sock_opt::SetCloseExec(fd);
-
+    LOG_MINE("mine", "fd:%d", fd);
     if (!sock_opt::SetNoBlock(fd))
     {
         LOG_ERROR(" nonblocking  client: %d error:%d, %s", fd, errno

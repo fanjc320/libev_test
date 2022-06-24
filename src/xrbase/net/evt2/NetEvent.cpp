@@ -8,6 +8,7 @@
 #include "event2/event.h"
 
 #include "NetEventBase.h"
+#include "log/LogMgr.h"
 
 NetEvent::NetEvent()
 {
@@ -39,6 +40,7 @@ int NetEvent::Assign(NetEventBase* pEventBase, SOCKET_T fd, short events, NET_EV
         evts |= EV_WRITE;
     }
     _pEventBase = pEventBase;
+    LOG_MINE("mine", "fd:%d", fd);
     return event_assign(_pEvent, _pEventBase->EventBase(), fd, evts, callback, callback_arg);
 }
 

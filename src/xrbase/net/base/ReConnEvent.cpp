@@ -121,6 +121,7 @@ void ReconnEvent::OnConnect(short events)
     if (_bConnected)
     {
         SOCKET_T fd = _pBuffer->GetFd();
+        LOG_MINE("mine", "fd:%d", fd);
         if (fd != -1 && _pOwner != nullptr)
         {
             _pThreadCtl->DispatchConnect(fd, _pOwner->GetSoid()

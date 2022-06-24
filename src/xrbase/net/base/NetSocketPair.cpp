@@ -131,6 +131,7 @@ void NetSocketPair::_EventPop(SOCKET_T fd, short events, void* args)
     NetSocketPair* pMsgQueue = (NetSocketPair*) args;
     if (pMsgQueue != nullptr)
     {
+        LOG_MINE("mine", "fd:%d", fd);
         pMsgQueue->Read();
         pMsgQueue->_DoCall();
         if (pMsgQueue->IsStop())

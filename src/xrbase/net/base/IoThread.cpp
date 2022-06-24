@@ -156,7 +156,7 @@ void IoThread::_OnMsgAcceptFunc(const event_msg_t msg)
         state = EConnState::NET_CONNECTED;
 
     pNewConn->AddRecvSec();
-    LOG_MINE("mine", "", "");
+    LOG_MINE("mine", "fd:%d", pAccept->fd);
     if (io_notify_logic_conn_msg(pNewConn, state, pAccept->soid) == -1)
     {
         LOG_ERROR("io_notify failed ip = %s", sock_opt::Inet_Ip(pAccept->addr).c_str());

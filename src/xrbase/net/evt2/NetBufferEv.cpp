@@ -15,6 +15,7 @@
 
 NetBufferEv* net_socket_new(NetEventBase* base, SOCKET_T fd, int options)
 {
+
     bufferevent* p = bufferevent_socket_new(base->EventBase(), fd, options);
     if (p == nullptr)
     {
@@ -68,11 +69,13 @@ void NetBufferEv::Release()
 
 size_t NetBufferEv::Read(void* data, size_t size)
 {
+    LOG_MINE("mine", "fd:%d", GetFd());
     return bufferevent_read(_bufev, data, size);
 }
 
 int NetBufferEv::Write(const void* data, size_t size)
 {
+    LOG_MINE("mine", "fd:%d", GetFd());
     return bufferevent_write(_bufev, data, size);
 }
 

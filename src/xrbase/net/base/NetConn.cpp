@@ -49,6 +49,7 @@ int NetConn::Init(SOCKET_T fd, NetEventBase* pEvBase, sockaddr& addr, EConnType 
     }
     sock_opt::SetCloseExec(fd);
 
+    LOG_MINE("mine"," socknew fd:%d", fd);
     NetBufferEv* pBuffer = net_socket_new(pEvBase, fd, true);//Î¨¶þµ÷ÓÃnet_socket_new,Áí£ºReConnEvent::Connect
     if (pBuffer == nullptr) return -1;
 
@@ -60,6 +61,7 @@ int NetConn::Init(SOCKET_T fd, NetEventBase* pEvBase, sockaddr& addr, EConnType 
     _ip = ((sockaddr_in*) (&addr))->sin_addr.s_addr;
     _type = type;
     _nSecRecvLimit = nSecRecvLimit;
+    LOG_MINE("mine", " socknew fd:%d", fd);
     _socket = fd;
     _tmLast = get_curr_time();
     return 0;

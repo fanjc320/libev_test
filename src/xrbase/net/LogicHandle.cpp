@@ -272,7 +272,8 @@ int LogicHandle::AddSession(LogicSession* pSession, const HostHd& hd, uint32_t m
             NetConnPool* connPool = ioThread->ConnPool();
             if (connPool)
             {
-                pSession->SetIp(connPool->GetIp(hd.connOid));
+                int ip = connPool->GetIp(hd.connOid);
+                pSession->SetIp(ip);
             }
         }
 

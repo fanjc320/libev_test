@@ -74,6 +74,7 @@ int EventThread::Start(FUN_EVENT_THREAD fnThread, void* args)
     {
         LOG_MINE("mine", "name:%s", name.c_str());
         _thread = std::thread(fnThread, args);//唯一调用std::thread的地方
+        LOG_MINE("mine", "name:%s _thread:%d", name.c_str(), _thread.get_id());
     }
     return 0;
 }

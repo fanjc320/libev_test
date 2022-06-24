@@ -181,7 +181,7 @@ EventThread* LogicThread::EvThread()
     return _pEvThread;
 }
 
-bool LogicThread::InitNetSetting(const NetSetting& setting)
+bool LogicThread::InitNetSetting(const NetSetting& setting)//server
 {
     if (has_listen(setting))
     {
@@ -205,7 +205,7 @@ Exit0:
     return false;
 }
 
-bool LogicThread::InitNetReconnSetting(const NetSetting& recon_setting)
+bool LogicThread::InitNetReconnSetting(const NetSetting& recon_setting)//client
 {
     // reconn io thread dispatcher
     if (recon_setting.IsValid())
